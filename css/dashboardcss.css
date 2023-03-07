@@ -1,0 +1,312 @@
+.a {
+    text-decoration: none;
+  }
+  body {
+    /* background: -webkit-linear-gradient(bottom, #2596be, #28a1b2); */
+    background-color: #fff;
+    background-repeat: no-repeat;
+  }
+  label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+  }
+
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 100%;
+    margin: 6rem auto 8.1rem auto;
+    width: 100%;
+  }
+  /* #card-content {
+    padding: 12px 44px;
+  } */
+  #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  #submit-btn1 {
+    background: -webkit-linear-gradient(right,#fff, #fff);
+    border: none;
+    border-radius: 0px;
+    /* box-shadow: 0px 1px 8px #2596be; */
+    cursor: pointer;
+    color: #2EBBB3;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 70px;
+    margin-top: 8px;
+    margin-left: 20px;
+    transition: 0.25s;
+    width: 153px;
+  }
+
+  #submit-btn2 {
+    background: -webkit-linear-gradient(right,#1B67B3, #1B67B3);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 1px 8px #1B67B3;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 30px ;
+    margin-top: 8px;
+    transition: 0.25s;
+    width: 153px;
+  }
+
+  #submit-btn3 {
+    background: -webkit-linear-gradient(right,#1B67B3, #1B67B3);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 1px 8px #1B67B3;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 30px ;
+    margin-top: 8px;
+    transition: 0.25s;
+    width: 153px;
+  }
+ 
+.nav{
+width: 95vw;
+height: 30vh;
+margin: 0;
+padding: 0;
+background: #2EBBB3;
+  }
+
+.name{
+margin-left: 120px;
+/* width: 89px; */
+height: 15vh;
+width: 100vw;
+padding: 20px;
+
+font-family: 'Dosis';
+font-style: normal;
+/* font-weight: 900;
+font-size: 30px;
+line-height: 35px; */
+/* display: flex;
+align-items: center;
+text-align: center; */
+background-image: url(/new\ logo.png);
+background-repeat: no-repeat;
+
+color: #FFFFFF;
+  }
+
+
+#sec1{           
+display: inline;
+margin-right: 80px;
+}
+
+#sec2{
+display: inline;
+margin-right: 50px
+}
+
+#sec3{
+    display: inline;
+    margin-left: 40px;
+    }
+
+.section{
+    margin-top: 30px;
+}
+.write{
+    margin-top: 10px;
+}
+.sec4{
+    display: inline;
+    margin-right: 80px;
+    font-size: ;
+}
+.sec5{
+    display: inline;
+    margin-right: 50px
+}
+.sec6{
+    display: inline;
+    margin-left: 40px;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.last{
+
+height: 20vh;
+margin-top: 20px;
+background: #2EBBB3;
+}
+.main{
+display: grid;
+}
+#card {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sec1, #sec2, #sec3 {
+  margin-right: 30px;
+}
+
+.nav {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; */
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.con1{
+  display: flex;
+  justify-content: center;
+}
+
+.con2{
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for tablet */
+@media screen and (max-width: 768px) {
+  #card-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav{
+    width: 100vw;
+  }
+  #sec1, #sec2, #sec3 {
+    margin-right: 10px;
+  }
+  
+  .write {
+    display: none;
+  }
+  
+  #sec4, #sec5, #sec6 {
+    font-size: 18px;
+  }
+  
+  .footer {
+    margin-top: 30px;
+  }
+  
+  .last {
+    margin-top: 30px;
+  }
+}
+.pic1{
+width: 80px;
+height: 80px;
+padding-right: 160px;
+padding-top: 10px;
+}
+
+.pic2{
+  width: 50px;
+  height: 50px;
+  padding-right: 160px;
+  padding-top: 10px;
+  }
+
+  .pic3{
+    width: 80px;
+    height: 80px;
+    padding-right: 160px;
+    padding-top: 10px;
+    }
+
+    .pic4{
+      width: 80px;
+      height: 80px;
+      padding-right: 160px;
+      padding-top: 10px;
+      }
+/* Style for mobile */
+@media screen and (max-width: 480px) {
+  #card-title {
+    padding: 2px;
+  }
+
+  .nav{
+    height: 40vh;
+  }
+  
+  #submit-btn1, #submit-btn2 {
+    font-size: 14px;
+  }
+  
+  #sec1, #sec2, #sec3 {
+    margin-right: 5px;
+  }
+  
+  #sec4, #sec5, #sec6 {
+    font-size: 14px;
+  }
+  
+  .last {
+    margin-top: 20px;
+  }
+
+  .pic1{
+    height: 50px;
+    width: 50px;
+    padding-right: 40px;
+  }
+  
+  .pic2{
+    height: 50px;
+    width: 50px;
+    padding-right: 40px;
+  }
+
+  .pic3{
+    height: 50px;
+    width: 50px;
+    padding-right: 40px;
+  }
+
+  .pic4{
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+  }
+
+  .container{
+    display: flex;
+
+  }
+  .last{
+    height: 10vh;
+  }
